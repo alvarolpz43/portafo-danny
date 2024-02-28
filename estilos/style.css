@@ -1,0 +1,45 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.menu{
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 75px;
+    justify-content: center;
+}
+.card{
+    align-items: center;
+}
+.section{
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.sm{
+    display: flex;
+    align-items: center;
+}
+.section2{
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    display: flex;
+    justify-content: center;
+}
+.icon1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.img-section2{
+    width: 100px;
+    height: 80px;
+   
+}
