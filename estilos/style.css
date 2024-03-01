@@ -1,7 +1,14 @@
+
 .header {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url("../img/mujer-50.jpg.webp");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    max-height: 400px;
+    padding-bottom: 200px;
 }
+
 
 .menu{
     display: grid;
@@ -9,6 +16,21 @@
     grid-template-columns: repeat(5,1fr);
     grid-gap: 75px;
     justify-content: center;
+    background-color: black;
+    color: yellow;
+    align-items: center;
+    height: 80px;
+}
+
+.name{
+    background-color: black;
+    color: yellow;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    height: 50px;
 }
 .card{
     align-items: center;
@@ -25,11 +47,17 @@
     display: flex;
     align-items: center;
 }
+.sm2{
+    width: 400px;
+    height: 100px;
+}
 .section2{
     grid-template-columns: repeat(3,1fr);
     display: grid;
     display: flex;
     justify-content: center;
+    gap: 20px;
+    height: 500px;
 }
 .icon1{
     display: grid;
@@ -39,7 +67,54 @@
     align-items: center;
 }
 .img-section2{
-    width: 100px;
+    width: 200px;
     height: 80px;
    
+}
+.bienvenido {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.bienvenido2 {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section{
+    height: 600px;
+    gap: 80px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+.img{
+    background-image: url("../img/foto-señori.avif");
+}
+.piepagina{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: black;
+    color: white;
+    height: 400px;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
